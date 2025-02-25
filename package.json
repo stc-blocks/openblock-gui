@@ -2,7 +2,7 @@
   "name": "openblock-gui",
   "version": "0.1.0",
   "description": "GraphicaL User Interface for creating and running OpenBlock projects",
-  "main": "./dist/scratch-gui.js",
+  "main": "./main/scratch-gui.js",
   "scripts": {
     "build": "npm run clean && webpack --colors --bail",
     "clean": "rimraf ./build && mkdirp build",
