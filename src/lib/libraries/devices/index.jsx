@@ -366,7 +366,7 @@ const deviceData = [
         iconURL: esp32S3IconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Empowers innovative IoT and AI projects, making it easy to bring smart ideas to life."
+                defaultMessage="Integrates a dedicated AI accelerator and rich peripheral set for efficient, low-power IoT edge and AI workloads." // eslint-disable-line max-len
                 description="Description for the esp32-s3 device"
                 id="gui.device.esp32S3.description"
             />
@@ -511,7 +511,7 @@ const deviceData = [
         iconURL: raspberryPiPicoIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="The powerful, flexible microcontroller board."
+                defaultMessage="A friendly, easy-to-use microcontroller board that brings your electronics ideas to life." // eslint-disable-line max-len
                 description="Description for the Raspberry Pi Pico device"
                 id="gui.device.raspberryPiPicoIconURL.description"
             />
@@ -547,7 +547,7 @@ const deviceData = [
         iconURL: raspberryPiPicoWIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Equipped with a 2.4GHz Wi-Fi module, it is ideal for wireless communication projects"
+                defaultMessage="A Pico with built-in 2.4 GHz Wi-Fi and Bluetooth 5.2, perfect for wireless and IoT projects." // eslint-disable-line max-len
                 description="Description for the Raspberry Pi Pico W device"
                 id="gui.device.raspberryPiPicoWIconURL.description"
             />
@@ -583,7 +583,7 @@ const deviceData = [
         iconURL: raspberryPiPico2IconURL,
         description: (
             <FormattedMessage
-                defaultMessage="A great board for exploring wireless projects and creative coding.."
+                defaultMessage="High-performance dual-core MCU with ample RAM and flash for complex applications." // eslint-disable-line max-len
                 description="Description for the Raspberry Pi Pico 2 device"
                 id="gui.device.raspberryPiPico2IconURL.description"
             />
@@ -619,7 +619,7 @@ const deviceData = [
         iconURL: raspberryPiPico2WIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="The powerful, flexible microcontroller board."
+                defaultMessage="Built-in 2.4 GHz Wi-Fi and Bluetooth for seamless wireless IoT and smart-home integration." // eslint-disable-line max-len
                 description="Description for the Raspberry Pi Pico 2 W device"
                 id="gui.device.raspberryPiPico2WIconURL.description"
             />
