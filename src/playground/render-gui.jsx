@@ -10,7 +10,7 @@ import log from '../lib/log.js';
 import MessageBoxType from '../lib/message-box.js';
 
 const onClickLogo = () => {
-    window.location = '/';
+    window.location = 'https://stc-creative-club.netlify.app/';
 };
 
 const onClickCheckUpdate = () => {
