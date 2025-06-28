@@ -570,9 +570,11 @@ class MenuBar extends React.Component {
                             className={classNames(styles.openblockLogo, {
                                 [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
                             })}
+                            // style={{ }}
                             draggable={false}
-                            src={this.state.isOverflow ? this.props.logoSmall : this.props.logo}
+                            src={this.state.isOverflow ? 'static/logo-mobile.png' : 'static/logo-device.png'}
                             onClick={this.props.onClickLogo}
+                            style={{width: this.state.isOverflow ? '3.1rem' : '9.5rem', height: this.state.isOverflow ? '2.5rem' : '6rem'}}
                         />
                     </div>
                     {(this.props.canChangeLanguage) && (<div

@@ -79,12 +79,15 @@
 }
 
 .openblock-logo {
-    height:  1.6rem;
+    /* height:  1.6rem; */
+    width: 9.5rem;
+    height: 6rem;
     vertical-align: middle;
 }
 
 .screen-shot-logo {
-    height:  1.8rem;
+    /* width: 3.1rem; */
+    /* height:  2.5rem; */
     vertical-align: middle;
 }
 
